@@ -1,0 +1,101 @@
+.project_img img{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+.project{
+    margin: 20px 0;
+}
+.port_projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project_description_text{
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(247, 246, 246);
+    font-weight: bold;
+    background-color: #01893C;
+}
+
+.project_description_title p {
+    color: #01893C;
+}
+.project_description_title h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.project_description{
+    position: relative;
+    top: 120px;
+    left: 40px;
+}
+.port_title{
+    text-align: center;
+    color: #03FA6E;
+    margin: 40px 0 60px;
+}
+.button_project a img{
+    width: 40px;
+}
+.button_project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #01893C;
+}
+.project_grafic{
+    display: flex;
+}
+.project_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 700px;
+    margin: auto;
+    text-align: end;
+    position: relative;
+    left: 150px;
+}
+.project_button p {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Tektur', sans-serif;
+    margin: 10px 0;
+    word-spacing: 3cap;
+    color: white;
+}
+.project_2 .project_description{
+    right: 0;
+    left: -5px;
+}
+.project_2 .project_grafic .project_img img{
+    position: relative;
+    left: 40px;
+}
+.project_2 .project_grafic .project_description .project_description_title{
+    text-align: end;
+}
+.project_2 .project_grafic .project_img img{
+    height: 306px;
+}
+.proj_3 .project_grafic .project_img img{
+    height: 300px;
+
+}
+.project_1 .project_button{
+    text-align: start;
+    margin: 0;
+    justify-content: center;
+    align-items: start;
+    left: 50px;
+}

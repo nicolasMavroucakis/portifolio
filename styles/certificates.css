@@ -1,0 +1,40 @@
+.certificates{
+    margin-top: 50px;
+}
+.certificate_1{
+    display: flex;   
+    margin: auto;
+}
+.certificate_img img{
+    width: 100px;
+    height: 100px;
+}
+.certificates_title{
+    text-align: center;
+}
+.certificates_title h1{
+    color: #03FA6E;
+    font-size: 3em;
+}
+.certificate_text h1{
+    color: white;
+}
+.certificates_description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.certificate_text{
+    margin-bottom: 10px;
+}
+.certificate_doc a{
+    text-decoration: none;
+    color: #03FA6E;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: start;
+}
+.certificates_grafic{
+    margin-top: 90px;
+}

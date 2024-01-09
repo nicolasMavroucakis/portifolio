@@ -1,0 +1,30 @@
+.tecnologies_img img{
+    height: 120px;
+    margin: 0 40px;
+}
+.tecnologies_img{
+    white-space: nowrap;
+    animation: 20s slide infinite linear;
+}
+.tecnologies{
+    display: flex;
+    overflow: hidden;
+    padding: 60px 0;
+    background-color: transparent;
+}
+.tecnologies:hover .tecnologies_img{
+    animation-play-state: paused;
+}
+.tecnologies_h1{
+    margin: 50px 0;
+    color: #03FA6E;
+    text-align: center;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

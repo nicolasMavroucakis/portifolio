@@ -1,0 +1,25 @@
+#footer{
+    width: 100%;
+    background-color: #01893C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.footer_img img{
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+}
+.footer_img{
+    margin: 40px 0;
+}
+.fotter_icons{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+.fotter_icons a img{
+    width: 60px;
+}

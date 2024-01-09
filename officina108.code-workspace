@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "officina108",
+			"path": "../officina108"
+		},
+		{
+			"name": "Portifolio",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portifolio"
+	}
+}

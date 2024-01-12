@@ -23,3 +23,33 @@
 .fotter_icons a img{
     width: 60px;
 }
+@media(min-width:100px) and (max-width:768px) {
+    .footer_img img{
+        width: 150px;
+        height: 130px;
+    }
+    .fotter_icons a img{
+        width: 40px;
+    }
+    .fotter_icons{
+        gap: 20px;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    .footer_img img{
+        width: 130px;
+        height: 130px;
+    }
+    .fotter_icons a img{
+        width: 50px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .footer_img img{
+        width: 130px;
+        height: 130px;
+    }
+    .fotter_icons a img{
+        width: 50px;
+    }
+}

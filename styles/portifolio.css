@@ -99,3 +99,189 @@
     align-items: start;
     left: 50px;
 }
+@media(min-width:100px) and (max-width:768px) {
+    .portifolio{
+        max-width: 90vw;
+        width: 90vw;
+        margin: auto;
+    }
+    .project{
+        max-width: 90vw;
+    }
+    .project_grafic{
+        max-width: 90vw;
+        flex-direction: column;
+    }
+    .project_img img{
+        width: 300px;
+        margin: auto;
+    }
+    .project_img{
+        padding-top: 20px;
+        margin: auto;
+        width: 90vw;
+        text-align: center;
+        
+    }
+    .project_button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        width: 90vw;
+        margin: auto;
+        text-align: end;
+        position: relative;
+        
+    }
+    .project_description{
+        width: 90vw;
+        top: 0;
+    }
+    .project_description_text{
+        width: 70vw;
+        margin: 20px;
+        padding-right: 20px;
+        position: relative;
+        right: 40px;
+        margin: auto;
+    }
+    .project_description_title{
+        width: 90vw;
+        padding-bottom: 10px;
+    }
+    .project_2 .project_grafic{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_2 .project_grafic .project_img img{
+        width: 300px;
+        height: 150px;
+        position: relative;
+        left: 0;
+    }
+    .project_2 .project_grafic .project_img{
+        margin: auto;
+        text-align: center;
+    }
+    #img_project_3 img{
+        width: 300px;
+        height: 150px;
+    }
+    .project_2 .project_button{
+        left: -30px;
+    }
+    .button_project a img{
+        width: 30px;
+    }
+    .button_project{
+        width: 50px;
+        height: 50px;
+    }
+    .project_description_title_2 h1{
+        margin-right: 100px;
+    }
+    .project_2 .project_grafic .project_description_text{
+        right: 0;
+    }
+    #project_description_title_2{
+        padding-right: 20px;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    .portifolio{
+        width: 90vw;
+        margin: auto;
+    }
+    .project{
+        max-width: 90vw;
+    }
+    .project_grafic{
+        max-width: 90vw;
+        flex-direction: column;
+    }
+    .project_img img{
+        width: 400px;
+        margin: auto;
+    }
+    .project_img{
+        padding-top: 20px;
+        margin: auto;
+        width: 90vw;
+        text-align: center;
+        
+    }
+    .project_button{
+        display: flex;
+        padding-left: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        width: 70vw;
+        margin: auto;
+        text-align: end;
+        position: relative;
+        
+    }
+    .project_description{
+        width: 90vw;
+        top: 0;
+    }
+    .project_description_text{
+        width: 50vw;
+        margin: 20px;
+        padding-right: 20px;
+        position: relative;
+        right: 40px;
+        margin: auto;
+    }
+    .project_description_title{
+        margin: auto;
+        width: 70vw;
+        padding-bottom: 10px;
+    }
+    .project_2 .project_grafic{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_2 .project_grafic .project_img img{
+        width: 400px;
+        height: 200px;
+        position: relative;
+        left: 0;
+    }
+    .project_2 .project_grafic .project_img{
+        margin: auto;
+        text-align: center;
+    }
+    #img_project_3 img{
+        width: 400px;
+        height: 200px;
+    }
+    .project_2 .project_button{
+        left: -100px;
+    }
+    .button_project a img{
+        width: 30px;
+    }
+    .button_project{
+        width: 50px;
+        height: 50px;
+    }
+    .project_description_title_2 h1{
+        margin-right: 100px;
+    }
+    .project_2 .project_grafic .project_description_text{
+        right: 0;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .portifolio{
+        width: 90vw;
+        margin: auto;
+    }
+}

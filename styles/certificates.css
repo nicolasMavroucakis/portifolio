@@ -38,3 +38,61 @@
 .certificates_grafic{
     margin-top: 90px;
 }
+@media(min-width:100px) and (max-width:768px) {
+    .certificates{
+        width: 90vw;
+        margin: auto;
+    }
+    .certificate_img img{
+        width: 70px;
+        height: 70px;
+    }
+    .certificate_doc a{
+        text-decoration: none;
+        color: #03FA6E;
+        font-weight: bold;
+        font-size: 1.3em;
+        text-align: start;
+    }
+    .certificate_text h1{
+        font-size: 1.3em;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    .certificates{
+        width: 90vw;
+    }
+    .certificate_text h1{
+        font-size: 1.9em;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .certificates{
+        width: 90vw;
+    }
+    .certificate_text h1{
+        font-size: 1.9em;
+    }
+}
+@media(min-width:1201px){
+    .certificates{
+        width: 60vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .certificate_text h1{
+        font-size: 1.9em;
+    }
+    .certificate_1{
+        margin: auto;
+    }
+}
+@media(min-width:1201px){
+    .certificates{
+        width: 60vw;
+        margin: auto;
+    }
+}

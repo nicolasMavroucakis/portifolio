@@ -14,47 +14,57 @@
     <link rel="stylesheet" href="styles/certificates.css">
     <link rel="stylesheet" href="styles/contact_me.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <script src="script.js"></script>
+    
     <title>Nicolas de Almeida Mavroucakis</title>
 </head>
 <body>
     <div class="tudo">
         <header>
+            <div class="container_header">
                 <div class="img_logo_header">
                     <img src="img/logo_portifolio.png" alt="">
                 </div>
                 <div class="text_header_div">
                     <div class="text_header">
-                        <h1>Home</h1>
+                        <a href="#home">Home</a>
                     </div>
                     <div class="text_header">
-                        <h1>About</h1>
+                        <a href="#about_me">About</a>
                     </div>
                     <div class="text_header">
-                        <h1>Portifolio</h1>
+                        <a href="#portifolio">Portifolio</a>
                     </div>
                     <div class="text_header">
-                        <h1>Contact</h1>
+                        <a href="#contact_me">Contact</a>
                     </div>
                 </div>
-
+                <nav class="nav">
+                    <button class="hamburger"></button>
+                    <ul class="nav-list">
+                      <li><a href="#home" id="principal">Home</a></li>
+                      <li><a href="#about_me" id="mercado">About Me</a></li>
+                      <li><a href="#portifolio" id="calculadora">Portifolio</a></li>
+                      <li><a href="#contact_me" id="calculadora">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
-            <div class="home">
+            <div class="home" id="home">
                 <div class="home_text">
                     <div class="text_name">
-                        <h3>Hello, I'm</h3>
-                        <div class="full_name">
-                            <h1>Nicolas <span>de Alemida</span></h1>
+                        <h3>I'm</h3>
+                        <h1>Nicolas <span class="change-text">de Almeida</span></h1>
+                        <div class="container">
+                          <p class="text web-developer">A Web Developer</p>
                         </div>
-                        <h3><span>A Web Developer</span></h3>
-                    </div>
+                      </div>
                     <div class="text_buttons">
                         <div id="but_1">
                             <a href="#">HIRE ME</a>
                         </div>
                         <div id="but_2">
-                            <a href="#">View my portifolio</a>
+                            <a href="docs/curiculo.pdf" target="_blank">Curriculum</a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about_me">
+            <div class="about_me" id="about_me">
                 <div class="about_me_img">
                     <div class="about_section_1">
                         <div class="quadrado_1"></div>
@@ -115,7 +125,7 @@
                         <p> I'm a creative devoloper from São Paulo, Brazil. I'm exited about create stunning websites.</p>
                         <p> I can speak 4 lenguages: English, Portuguese(mother lenguage), German and Spanish.</p> 
                         <p>I am searching for an oportunity to show what I can do with my skills, initiative and constant desire to learn.</p>
-                        <p>In my leisure time, I enjoy play with my dog, go to the gym and watch series.</p>
+                        <p id="last_p_about">In my leisure time, I enjoy play with my dog, go to the gym and watch series.</p>
                         <div class="info_about_text_me_div_1">
                             <div class="info_about_text_me">
                                 <h1>Name</h1>
@@ -164,7 +174,7 @@
                     <img src="img/tec8.png">
                 </div>
             </div>
-            <div class="portifolio">
+            <div class="portifolio" id="portifolio">
                 <div class="port_title">
                     <h1>PORTIFOLIO</h1>
                 </div>
@@ -181,10 +191,10 @@
                                          This project was carried out for a client who wanted a one-page website to talk about his beauty salon and attract more customers to the beauty salon through it.
                                      </p>
                                 </div>
-                             </div>
-                             <div class="project_img">
-                                 <img src="img/project_1.png" alt="">
-                             </div>
+                            </div>
+                            <div class="project_img">
+                                <img src="img/project_1.png">
+                            </div>
                         </div>
                         <div class="project_button">
                             <p>JavaScript HTML CSS</p>
@@ -196,10 +206,10 @@
                     <div class="project project_2">
                         <div class="project_grafic">
                             <div class="project_img">
-                                <img src="img/project_2.png" alt="">
+                                <img src="img/project_2.png">
                             </div>
                             <div class="project_description">
-                                <div class="project_description_title">
+                                <div class="project_description_title" id="project_description_title_2">
                                  <p>Feature Project</p>
                                  <h1>Finance Page</h1>
                                 </div>
@@ -230,7 +240,7 @@
                                      </p>
                                 </div>
                              </div>
-                             <div class="project_img">
+                             <div class="project_img" id="img_project_3">
                                  <img src="img/project_3.png" alt="">
                              </div>
                         </div>
@@ -263,7 +273,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contact_me">
+            <div class="contact_me" id="contact_me">
                 <div class="contact_me_maps">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935396.7973896326!2d-47.25483952447719!3d-23.679757724860433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1704811773655!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -272,13 +282,11 @@
                         <h1>CONTACT ME</h1>
                     </div>
                     <div class="form_email">
-                        <form action="https://formsubmit.co/nicoas.mavroucakis@gmail.com" method="post">
+                        <form>
                             <input type="text" name="name" placeholder="Inseart your name" required>
                             <input type="email" name="email" placeholder="Inseart your e-mail" required>
                             <textarea cols="30" rows="10" name="message" placeholder="Inseart your message" required></textarea>
-                            
                             <button type="submit" id="button_email">SEND</button>
-                            
                             <input type="hidden" name="_subject" value="Novo Contato!">
                             <input type="text" name="_honey" style="display:none">
                             <input type="hidden" name="_captcha" value="false">
@@ -301,5 +309,6 @@
             <a href="https://www.linkedin.com/in/nicolas-mavroucakis/?originalSubdomain=br"><img src="img/icon_footer_6.png"></a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

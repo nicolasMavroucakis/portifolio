@@ -4,7 +4,7 @@
 }
 .tecnologies_img{
     white-space: nowrap;
-    animation: 20s slide infinite linear;
+    animation: 15s slide infinite linear;
 }
 .tecnologies{
     display: flex;
@@ -26,5 +26,23 @@
     }
     to{
         transform: translateX(-100%);
+    }
+}
+@media(min-width:100px) and (max-width:768px) {
+    .tecnologies_img img{
+        height: 90px;
+        margin: 0 20px;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    .tecnologies_img img{
+        height: 120px;
+        margin: 0 50px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .tecnologies_img img{
+        height: 100px;
+        margin: 0 40px;
     }
 }

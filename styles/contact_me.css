@@ -45,3 +45,45 @@ textarea{
 .contact_me_email_title h1{
     color: #03FA6E;
 }
+@media(min-width:100px) and (max-width:768px) {
+    .contact_me{
+        width: 90vw;
+        margin: auto;
+        flex-direction: column;
+    }
+    .contact_me_email_title{
+        margin-bottom: 10px;
+    }
+    .contact_me_maps iframe{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    .contact_me{
+        width: 90vw;
+        margin: auto;
+        flex-direction: row;
+    }
+    .contact_me_email_title{
+        margin-bottom: 10px;
+    }
+    .contact_me_maps iframe{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(min-width:1201px){
+    .contact_me{
+        width: 60vw;
+        margin: auto;
+        flex-direction: row;
+    }
+    .contact_me_email_title{
+        margin-bottom: 10px;
+    }
+    .contact_me_maps iframe{
+        width: 400px;
+        height: 400px;
+    }
+}

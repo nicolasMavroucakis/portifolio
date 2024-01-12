@@ -18,17 +18,17 @@ main{
     0% {
       width: 300px;
       height: 400px;
-      border-radius: 25% 75% 74% 26% / 50% 60% 40% 50% ; /* Início da animação */
+      border-radius: 25% 75% 74% 26% / 50% 60% 40% 50% ;
     }
     50% {
       width: 300px;
       height: 400px;
-      border-radius: 46% 54% 24% 76% / 80% 16% 84% 20% ; /* Fim da animação */
+      border-radius: 46% 54% 24% 76% / 80% 16% 84% 20% ; 
     }
     100% {
         width: 300px;
         height: 400px;
-        border-radius: 65% 35% 33% 67% / 38% 58% 42% 62% ; /* Fim da animação */
+        border-radius: 65% 35% 33% 67% / 38% 58% 42% 62% ; 
       }
   }
 .home_img{
@@ -80,13 +80,8 @@ main{
 .text_name h3{
     font-size: 3em;
 }
-.full_name h1{
-    font-size: 4.3em;
-}
-.full_name span{
-    color: #03FA6E;
-}
 .text_buttons{
+    margin-top: 30px;
     display: flex;
     align-items: center;
 }
@@ -111,4 +106,335 @@ main{
     color: #03FA6E;
     font-size: 1.5em;
     font-weight: bold;
+}
+.text_name h1 {
+    font-size: 3.5em;
+    color: #03FA6E;
+    display: flex;
+    gap: 10px;
+}
+.text_name h3 {
+    font-size: 4em;
+}
+.text {
+    border-right: 5px solid;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+}
+.change-text {
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 340px;
+    display: inline-block;
+    animation: typing 2s steps(20, end), cursor .4s step-end infinite alternate;
+}
+@keyframes typing {
+from { width: 0; }
+}
+@keyframes cursor {
+50% {
+    border-color: transparent;
+}
+}
+@media(min-width:100px) and (max-width:768px) {
+    main{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home{
+        padding-top: 30px;
+        margin: auto;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home_img_circle img{
+        width: 150px;
+        height: 250px;
+        margin: auto;
+        
+    }
+    @keyframes changeForm {
+        0% {
+          width: 200px;
+          height: 300px;
+          border-radius: 25% 75% 74% 26% / 50% 60% 40% 50% ;
+        }
+        50% {
+          width: 200px;
+          height: 300px;
+          border-radius: 46% 54% 24% 76% / 80% 16% 84% 20% ; 
+        }
+        100% {
+            width: 200px;
+            height: 300px;
+            border-radius: 65% 35% 33% 67% / 38% 58% 42% 62% ; 
+          }
+      }
+    .carat_text{
+        width: 140px;
+        height: 70px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        font-size: .6em;
+    }
+    .text_buttons{
+        margin-top: 30px;
+    }
+    #but_1{
+        width: 120px;
+        height: 60px;
+        border-radius: 15px;
+        margin-right: 20px;
+    }
+    #but_1 a{
+        font-size: 1.2em;  
+    }
+    #but_2 a{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .text_name h1 {
+        width: 410px;
+        font-size: 2.3em;
+        gap: 10px;
+    }
+    .text_name h3 {
+        font-size: 2.5em;
+    }
+    .text {
+        font-size: 1.5em;
+        width: 230px;
+    }
+    .change-text {
+        border-right: 5px solid;
+        width: 230px;
+        animation: typing 2s steps(20, end), cursor .4s step-end infinite alternate;
+    }
+    .home_text{
+        width: 90vw;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .carat_text_text h1{
+        font-size: 1.8em;
+    }
+    #carat_text_plus_3{
+        left: -30px;
+    }
+    #carat_text_1{
+        left: -22px;
+    }
+    #carat_text_2{
+        left: -22px;
+    }
+    .about_me_img{
+        z-index: -1;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    main{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home{
+        padding-top: 30px;
+        width: 90vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .home_img_circle img{
+        width: 150px;
+        height: 250px;
+        margin: auto;
+        
+    }
+    @keyframes changeForm {
+        0% {
+          width: 200px;
+          height: 300px;
+          border-radius: 25% 75% 74% 26% / 50% 60% 40% 50% ;
+        }
+        50% {
+          width: 200px;
+          height: 300px;
+          border-radius: 46% 54% 24% 76% / 80% 16% 84% 20% ; 
+        }
+        100% {
+            width: 200px;
+            height: 300px;
+            border-radius: 65% 35% 33% 67% / 38% 58% 42% 62% ; 
+          }
+      }
+    .carat_text{
+        width: 140px;
+        height: 70px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        font-size: .6em;
+    }
+    .text_buttons{
+        margin-top: 30px;
+    }
+    #but_1{
+        width: 120px;
+        height: 60px;
+        border-radius: 15px;
+        margin-right: 20px;
+    }
+    #but_1 a{
+        font-size: 1.2em;  
+    }
+    #but_2 a{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .text_name h1 {
+        width: 410px;
+        font-size: 2.3em;
+        gap: 10px;
+    }
+    .text_name h3 {
+        font-size: 2.5em;
+    }
+    .text {
+        font-size: 1.5em;
+        width: 230px;
+    }
+    .change-text {
+        width: 230px;
+        animation: typing 2s steps(20, end), cursor .4s step-end infinite alternate;
+    }
+    .home_text{
+        width: 40vw;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    .carat_text_text h1{
+        font-size: 1.8em;
+    }
+    #carat_text_plus_3{
+        left: -30px;
+    }
+    #carat_text_1{
+        left: -22px;
+    }
+    #carat_text_2{
+        left: -16px;
+    }
+    .about_me_img{
+        z-index: -1;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    main{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home{
+        padding-top: 30px;
+        width: 90vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .home_img_circle img{
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        
+    }
+    @keyframes changeForm {
+        0% {
+          width: 300px;
+          height: 400px;
+          border-radius: 25% 75% 74% 26% / 50% 60% 40% 50% ;
+        }
+        50% {
+          width: 300px;
+          height: 400px;
+          border-radius: 46% 54% 24% 76% / 80% 16% 84% 20% ; 
+        }
+        100% {
+            width: 300px;
+            height: 400px;
+            border-radius: 65% 35% 33% 67% / 38% 58% 42% 62% ; 
+          }
+      }
+    .carat_text{
+        width: 140px;
+        height: 70px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        font-size: .6em;
+    }
+    .text_buttons{
+        margin-top: 30px;
+    }
+    #but_1{
+        width: 120px;
+        height: 60px;
+        border-radius: 15px;
+        margin-right: 20px;
+    }
+    #but_1 a{
+        font-size: 1.2em;  
+    }
+    #but_2 a{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .text_name h1 {
+        width: 550px;
+        font-size: 2.7em;
+        gap: 10px;
+    }
+    .text_name h1 span{
+        width: 270px;
+    }
+    .text_name h3 {
+        font-size: 2.5em;
+    }
+    .text {
+        font-size: 1.5em;
+        width: 230px;
+    }
+    .change-text {
+        width: 230px;
+        animation: typing 2s steps(20, end), cursor .4s step-end infinite alternate;
+    }
+    .home_text{
+        width: 40vw;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    .carat_text_text h1{
+        font-size: 1.8em;
+    }
+    #carat_text_plus_3{
+        left: -30px;
+    }
+    #carat_text_1{
+        left: -22px;
+    }
+    #carat_text_2{
+        left: -16px;
+    }
+    .about_me_img{
+        z-index: -1;
+    }
 }
